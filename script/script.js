@@ -14,6 +14,7 @@ add.addEventListener('click', () => {
     div.style = "display: flex; flex-direction: row; gap: 20px;"
     div.classList.add('tarefas');
     texto.innerHTML = textoInput.value;
+    
 
     icone.addEventListener('click', () => {
         div.remove();
