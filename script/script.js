@@ -6,7 +6,7 @@ add.addEventListener('click', () => {
     var div = document.createElement('div');
     var texto = document.createElement('p');
     var icone = document.createElement('img');
-    icone.src = "../img/remove-icon.png";
+    icone.src = "img/remove-icon.png";
     icone.style = "height: 30px; cursor: pointer;";
     section.appendChild(div);
     div.appendChild(texto);
