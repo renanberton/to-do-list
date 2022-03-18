@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #000;
+    color: #3c3c3c;
+    margin-top: 20px;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    background-color: #9ADCFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.tarefas {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    background-color: #fff;
+    font-size: 26px;
+    border-radius: 5px;
+}
+
+.tarefas p {
+    padding: 30px 0;
+}
+
+.tarefas input {
+    height: 40px;
+    width: 400px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.tarefas input::placeholder {
+    text-align: center;
+}
+
+.input-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-img img {
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .tarefas {
+        width: 90%;
+    }
+
+    .tarefas input {
+        width: 90%;
+    }
+}
