@@ -87,11 +87,18 @@ body {
 
     .tarefas input {
         width: 300px;
+        margin: 20px 0 0;
     }
 
     .tarefas p {
         width: 70%;
         flex-wrap: wrap;
         font-size: 26px;
+    }
+
+    .input-img {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 20px 0;
     }
 }
