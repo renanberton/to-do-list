@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,21 +7,23 @@
 
 h1 {
     font-size: 36px;
-    color: #000;
-    color: #3c3c3c;
+    color: #fff;
     margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: #1A374D;
 }
 
 .container {
     width: 90%;
     height: auto;
-    background-color: #9ADCFF;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     flex-direction: column;
-    height: 100vh;
 }
 
 .tarefas {
@@ -30,14 +34,17 @@ h1 {
     align-items: center;
     flex-direction: column;
     margin: 20px 0;
-    background-color: #fff;
+    background-color: #406882;
     font-size: 26px;
     border-radius: 5px;
 }
 
 .tarefas p {
     padding: 30px 0;
-    max-width: 90%;
+    width: 47%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .tarefas input {
@@ -49,6 +56,7 @@ h1 {
 
 .tarefas input::placeholder {
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .input-img {
@@ -63,16 +71,27 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+
     .tarefas {
         width: 90%;
     }
 
     .tarefas input {
-        width: 90%;
+        width: 300px;
     }
 
     .tarefas p {
-        max-width: 100%;
+        width: 70%;
         flex-wrap: wrap;
+        font-size: 26px;
     }
 }

@@ -13,8 +13,8 @@ add.addEventListener('click', () => {
     div.appendChild(icone);
     div.style = "display: flex; flex-direction: row; gap: 20px;"
     div.classList.add('tarefas');
-    texto.innerHTML = textoInput.value;
-    
+    texto.innerHTML = textoInput.value;  
+    textoInput.value = "";  
 
     icone.addEventListener('click', () => {
         div.remove();
