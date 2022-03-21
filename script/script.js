@@ -1,7 +1,9 @@
+/* Seletores */
 const add = document.getElementById('add');
 const section = document.querySelector('.container');
 const textoInput = document.getElementById('conteudoTarefa');
 
+/* Evento de click Para add as tarefas */
 add.addEventListener('click', () => {
     var div = document.createElement('div');
     var texto = document.createElement('p');
@@ -19,4 +21,15 @@ add.addEventListener('click', () => {
     icone.addEventListener('click', () => {
         div.remove();
     })
+})
+
+const screenShot = document.getElementById('screenShot');
+/* Evento de click para tirar um print Screen das tarefas, e fazer o download da img */
+screenShot.addEventListener('click', () => {
+    html2canvas(document.querySelector("#capture")).then(canvas => {
+        let a = document.createElement("a");
+        a.download = "tarefa.jpg";
+        a.href = canvas.toDataURL("image/jpg");
+        a.click();
+    });
 })
