@@ -2,6 +2,7 @@
 const add = document.getElementById('add');
 const section = document.querySelector('.container');
 const textoInput = document.getElementById('conteudoTarefa');
+const novasTarefas = document.querySelector('.novasTarefas');
 
 /* Evento de click Para add as tarefas */
 add.addEventListener('click', () => {
@@ -10,10 +11,10 @@ add.addEventListener('click', () => {
     var icone = document.createElement('img');
     icone.src = "img/remove-icon.png";
     icone.style = "height: 30px; cursor: pointer;";
-    section.appendChild(div);
+    novasTarefas.appendChild(div);
     div.appendChild(texto);
     div.appendChild(icone);
-    div.style = "display: flex; flex-direction: row; gap: 20px;"
+    div.style = "display: flex; flex-direction: row;"
     div.classList.add('tarefas');
     texto.innerHTML = textoInput.value;  
     textoInput.value = "";  
