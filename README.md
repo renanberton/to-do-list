@@ -9,5 +9,5 @@ Confira em:
 https://renanberton.github.io/to-do-list/
 
 <div align="center">
-![To-do-list align="center"](https://i.imgur.com/aFaImCw.gif)
+<img>![To-do-list align="center"](https://i.imgur.com/aFaImCw.gif)
 </div>
