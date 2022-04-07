@@ -9,4 +9,4 @@ Confira em:
 https://renanberton.github.io/to-do-list/
 
 
-![To-do-list]https://i.imgur.com/aFaImCw.gif
+![To-do-list](https://i.imgur.com/aFaImCw.gif)
