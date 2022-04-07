@@ -8,6 +8,6 @@ O projeto tira um print das tarefas que foram adicionadas pelo usuário e permit
 Confira em:
 https://renanberton.github.io/to-do-list/
 
-<div align= "center">
+<div style=" align= "center"">
 ![To-do-list](https://i.imgur.com/aFaImCw.gif)
 </div>
